@@ -13,10 +13,5 @@ namespace lab10.Models
         public string Email { get; set; }
         public string Age { get; set; }
         public string City { get; set; }
-
-        public void SayHelloToUser(string textToAdd){
-            string str = "Hello, " + Name;
-            Console.WriteLine(str);
-        }
     }
 }
